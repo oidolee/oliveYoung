@@ -187,6 +187,11 @@ section {
     cursor: pointer;
 }
 
+.third1_btn1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .third2_box2 {
     width: 250px;
     height: 230px;
@@ -225,9 +230,19 @@ section {
     cursor: pointer;
 }
 
+.third2_btn2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .third3_box3 {
     width: 250px;
     height: 230px;
+}
+
+.third3_box3 img {
+    width: 100%;
+    height: 100%;
 }
 
 .third3_text3 {
@@ -256,6 +271,11 @@ section {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+}
+
+.third3_btn3 a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .login_bg {
