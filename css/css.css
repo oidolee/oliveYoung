@@ -1,157 +1,195 @@
 @charset "UTF-8";
-html,body{
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
-.wrap{
-  width: 100%;
-  height: 100%;
-  font-family: 'EliceDigitalBaeum_Regular';
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    font-family: 'EliceDigitalBaeum_Regular';
+}
 
 
-}
 /*전체 폰트*/
-@font-face { 
-  font-family: 'EliceDigitalBaeum_Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+
+@font-face {
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.banner{
-  width: 100%;
-  height: 900px;
-  background-color: #00d2ff;
-}
-    .banner>img{
-      margin: 0 auto;
-      display: block;
-    }
-    .banner>img:nth-of-type(2){
-      position: fixed;
-      top: 0;
-      left: 0;
-    }
-section{
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
+.banner {
+    width: 100%;
+    height: 900px;
+    background-color: #00d2ff;
 }
 
-  .art_1{
+.banner>img {
+    margin: 0 auto;
+    display: block;
+}
+
+.banner>img:nth-of-type(2) {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+section {
     width: 100%;
     height: auto;
-    background-color:  rgba(209, 151, 74, 0.7);
+    margin: 0 auto;
+}
+
+.art_1 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(209, 151, 74, 0.7);
     margin: 0 auto;
     padding: 50px 0;
     box-sizing: border-box;
-  }
-      .first,.last{
-        max-width: 800px;
-        height: 100px;
-        background-color: thistle;
-        margin: 0 auto;
-      }
-      .first{
-        text-align: center;
-        line-height: 50px;
-      }
-        .first>h1{
-          font-size: 2em;
-        }
-     
-      .coupon_container{
-        max-width: 800px;
-        height: 600px;
-        background-color: white;
-        margin: 20px auto;
-        border-radius: 50px;
-        padding: 20px;
-      }
+}
 
-      .coupon_header{
-        width: 400px;
-        height: 100px;
-        background-color: blue;
-        margin: 0 auto;
-      }
+.first,
+.last {
+    max-width: 800px;
+    height: 100px;
+    background-color: thistle;
+    margin: 0 auto;
+}
 
-      .coupon,.coupon_info{
-        width: 400px;
-        height: 200px;
-        background-color: red;
-        margin: 0 auto;
-        margin-top: 10px;
-        cursor: pointer;
-      }
-     
-  .art_2{
+.first {
+    text-align: center;
+    line-height: 50px;
+}
+
+.first>h1 {
+    font-size: 2em;
+}
+
+.coupon_container {
+    max-width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.coupon_header {
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.coupon,
+.coupon_info {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.art_2 {
     width: 100%;
     height: auto;
     background-color: rgb(79, 150, 209);
     margin: 0 auto;
-  }
-      .second_1{
-        max-width: 200px;
-        height: 100px;
-        background-color: coral;
-      margin: 0 auto;
-
-      }
-      .second_2{
-        max-width: 400px;
-        height: 200px;
-        background-color: red;
-        margin: 0 auto;
-
-      }
-      .second_3{
-        max-width: 800px;
-        height: 300px;
-        background-color: cyan;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
-      }
-        .second_3>div{
-          width: 180px;
-          height: 200px;
-          background-color: seagreen;
-        }
-.art_3{
-  width: 100%;
-  height: auto;
-  background-color: rgb(22, 83, 133);
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-
 }
-      .third{
-        width: 250px;
-        height: 500px;
-        margin-top: 20px;
-        background-color: tomato;
-        margin: 10px;
-      }
 
-.login_bg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  padding: 10px;
-  box-sizing: border-box;
-  display: none;
+.second_1 {
+    max-width: 200px;
+    height: 100px;
+    background-color: coral;
+    margin: 0 auto;
 }
-    .wrap>.login_Bgpop{
-      display: block;
-      background-color: rgb(117, 102, 80);
-      opacity: 0.7;
-    }
-      
-  .login{
+
+.second_2 {
+    max-width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.second_3 {
+    max-width: 800px;
+    height: 300px;
+    background-color: cyan;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second_3>div {
+    width: 180px;
+    height: 200px;
+    background-color: seagreen;
+}
+
+
+/* 윤다솔 */
+
+.art_3 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(22, 83, 133);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.third {
+    width: 250px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: tomato;
+    margin: 10px;
+}
+
+.third1_box1 {
+    width: 230px;
+    height: 230px;
+    background-color: aqua;
+}
+
+.third1_text1 {
+    width: 230px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.third1_btn1 button {
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
+.login_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.wrap>.login_Bgpop {
+    display: block;
+    background-color: rgb(117, 102, 80);
+    opacity: 0.7;
+}
+
+.login {
     position: absolute;
     left: 50%;
     max-width: 1200px;
@@ -159,43 +197,43 @@ section{
     height: 1200px;
     display: none;
     transform: translateX(-50%);
+}
 
-  }
-    .login_effect{
-      display: block;
-      background-color: rgb(117, 102, 80);
-    }
-
-    /*로그인 팝업 효과*/
-      .login_box{
-        width: 600px;
-        height: 100px;
-        background-color: royalblue;
-        margin: 10px;
-      }
-
-      .login_banner{
-        height: 300px;
-      }
-      .login>form{
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .login>form>label>input{
-        width: 300px;
-        height: 30px;
-        margin:10px 0;
-      }
-
-      .login>form>input{
-        width: 200px;
-        height: 30px;
-        margin:10px 0;
-      }
+.login_effect {
+    display: block;
+    background-color: rgb(117, 102, 80);
+}
 
 
+/*로그인 팝업 효과*/
 
+.login_box {
+    width: 600px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+}
 
+.login_banner {
+    height: 300px;
+}
+
+.login>form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login>form>label>input {
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.login>form>input {
+    width: 200px;
+    height: 30px;
+    margin: 10px 0;
+}
