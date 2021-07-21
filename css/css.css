@@ -176,7 +176,15 @@ section{
 
       .login_banner{
         height: 300px;
+        position: relative;
       }
+        .login_banner>img{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: block;
+        }
       .login>form{
         height: 300px;
         display: flex;
@@ -195,6 +203,7 @@ section{
         height: 30px;
         margin:10px 0;
       }
+
 
 
 
