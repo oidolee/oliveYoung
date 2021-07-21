@@ -113,11 +113,19 @@
                 <img src="img/id/Avocado.png" alt=Avocado">
             </div>
             <form action="info.php " method="POST " class="login_box ">
-                <label for=" "><input type="email " name="email " id="email " placeholder="이메일 " maxlength="30 "></label>
-                <label for=" "><input type="password" placeholder="비밀번호"></label>
+                <label for="email"><input type="email " name="email " id="email " placeholder="이메일 " maxlength="30 "></label>
+                <label for=" "><input type="password" name="password" id="password" placeholder="비밀번호"></label>
                 <input type="submit" value="로그인">
             </form>
-            <div id="find_info " class="find_info login_box "></div>
+            <div id="find_info " class="find_info login_box ">
+                <div id="find_password" class="find_password">
+                    <p>비밀번호 찾기</p>
+                </div>
+                <div>/</div>
+                <div id="find_password" class="find_password">
+                    <p>이메일로 회원가입</p>
+                </div>
+            </div>
             <div id="start_sns " class="start_sns login_box "></div>
             <div id="login_footer " class="login_footer login_box"></div>
         </div>
