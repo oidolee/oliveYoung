@@ -288,7 +288,7 @@ section {
 
 .login_effect {
     display: block;
-    background-color: rgb(117, 102, 80);
+    background-color: #ffffff;
 }
 
 
@@ -297,7 +297,7 @@ section {
 .login_box {
     width: 600px;
     height: 100px;
-    background-color: royalblue;
+    background-color: #ffffff;
     margin: 10px;
 }
 
@@ -369,16 +369,23 @@ section {
 
     .login>form>label>input {
         width: 300px;
-        height: 30px;
+        height: 40px;
         margin: 10px 0;
     }
 
     .login>form>input {
         width: 300px;
-        height: 30px;
+        height: 100px;
         margin: 10px 0;
+        background-color: #4383FF;
     }
 .find_info{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50px;
 }
+    .find_info>div:nth-of-type(2)
+    {
+        margin: 0 10px;
+    }
