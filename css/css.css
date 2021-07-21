@@ -168,6 +168,46 @@ section {
     font-size: 20px;
 }
 
+.third2_box2 {
+    width: 230px;
+    height: 230px;
+    background-color: aqua;
+}
+
+.third2_text2 {
+    width: 230px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.third2_btn2 button {
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
+.third3_box3 {
+    width: 230px;
+    height: 230px;
+    background-color: aqua;
+}
+
+.third3_text3 {
+    width: 230px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.third3_btn3 button {
+    width: 150px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
 .login_bg {
     position: absolute;
     top: 0;
