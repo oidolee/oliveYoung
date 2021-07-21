@@ -144,20 +144,38 @@ section {
     width: 250px;
     height: 500px;
     margin-top: 20px;
-    background-color: tomato;
+    background-color: #fff;
     margin: 10px;
+    position: relative;
 }
 
 .third1_box1 {
-    width: 230px;
+    width: 250px;
     height: 230px;
-    background-color: aqua;
+}
+
+.third1_box1 img {
+    width: 100%;
+    height: 100%;
 }
 
 .third1_text1 {
-    width: 230px;
+    width: 250px;
     height: 150px;
-    background-color: blueviolet;
+    text-align: center;
+}
+
+.third1_text1 h3 {
+    margin: 30px;
+}
+
+.third1_btn1 {
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
 }
 
 .third1_btn1 button {
@@ -166,18 +184,36 @@ section {
     background-color: #333;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .third2_box2 {
-    width: 230px;
+    width: 250px;
     height: 230px;
-    background-color: aqua;
+}
+
+.third2_box2 img {
+    width: 100%;
+    height: 100%;
 }
 
 .third2_text2 {
-    width: 230px;
+    width: 250px;
     height: 150px;
-    background-color: blueviolet;
+    text-align: center;
+}
+
+.third2_text2 h3 {
+    margin: 30px;
+}
+
+.third2_btn2 {
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
 }
 
 .third2_btn2 button {
@@ -186,18 +222,31 @@ section {
     background-color: #333;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .third3_box3 {
-    width: 230px;
+    width: 250px;
     height: 230px;
-    background-color: aqua;
 }
 
 .third3_text3 {
-    width: 230px;
+    width: 250px;
     height: 150px;
-    background-color: blueviolet;
+    text-align: center;
+}
+
+.third3_text3 h3 {
+    margin: 30px;
+}
+
+.third3_btn3 {
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
 }
 
 .third3_btn3 button {
@@ -206,6 +255,7 @@ section {
     background-color: #333;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .login_bg {
