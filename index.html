@@ -1,68 +1,92 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>oliveYoung</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oliveYoung</title>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/css.css">
-  <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/script.js"></script>
 
 </head>
+
 <body>
-  <div id="wrap" class="wrap">
-    <div id="banner" class="banner">
-      <img src="img/banner/banner_1200.png" alt="banner_1200">
-      <img src="img/banner/Avocado.png" alt="Avocado">
+    <div id="wrap" class="wrap">
+        <div id="banner" class="banner">
+            <img src="img/banner/banner_1200.png" alt="banner_1200">
+            <img src="img/banner/Avocado.png" alt="Avocado">
 
-      <!-- <img src="img/banner/banner_1700.png" alt="banner_1200"> -->
-    </div>
-    <section>
-      <article id="art_1" class="art_1">
-        <div id="first" class="first art_box">
-          <p>더운날씨에 힘드시죠? </p>
-          <h1>"쿨 폰" 나갑니다!!</h1>
+            <!-- <img src="img/banner/banner_1700.png" alt="banner_1200"> -->
         </div>
-        <div id="coupon_container1" class="coupon_container1 coupon_container">
+        <section>
+            <article id="art_1" class="art_1">
+                <div id="first" class="first art_box">
+                    <p>더운날씨에 힘드시죠? </p>
+                    <h1>"쿨 폰" 나갑니다!!</h1>
+                </div>
+                <div id="coupon_container1" class="coupon_container1 coupon_container">
 
-            <div id="coupon_header1" class="coupon_header1 coupon_header"></div>
-            <div id="coupon1" class="coupon1 coupon">
-                <img src="img/art1/coupon1.png" alt="coupon1">
-            </div>
-            <div id="coupon2" class="coupon2 coupon">
-              <img src="img/art1/coupon2.png" alt="coupon2">
-              
-            </div>
-        </div>
-        <div id="coupon_container2" class="coupon_container2 coupon_container">
-          <div id="coupon_header2" class="coupon_header2 coupon_header"></div>
-          <div id="coupon3" class="coupon3 coupon">
-            <img src="img/art1/coupon3.png" alt="coupon3">
-            
-          </div>
-          <div id="coupon_info" class="coupon_info "></div>
-        </div>
-         
-        <div id="last" class="last art_box"></div>
-      </article>
-      <article id="art_2" class="art_2">
-        <div id="second_1" class="second_1 second"></div>
-        <div id="second_2" class="second_2 second"></div>
-        <div id="second_3" class="second_3 second">
-          <div id="category1" class="category1 category"></div>
-          <div id="category2" class="category2 category"></div>
-          <div id="category3" class="category3 category"></div>
-          <div id="category4" class="category4 category"></div>
-        </div>
-      </article>
-      <article id="art_3" class="art_3">
+                    <div id="coupon_header1" class="coupon_header1 coupon_header"></div>
+                    <div id="coupon1" class="coupon1 coupon">
+                        <img src="img/art1/coupon1.png" alt="coupon1">
+                    </div>
+                    <div id="coupon2" class="coupon2 coupon">
+                        <img src="img/art1/coupon2.png" alt="coupon2">
 
-        <div id="third_1" class="third_1 third">
+                    </div>
+                </div>
+                <div id="coupon_container2" class="coupon_container2 coupon_container">
+                    <div id="coupon_header2" class="coupon_header2 coupon_header"></div>
+                    <div id="coupon3" class="coupon3 coupon">
+                        <img src="img/art1/coupon3.png" alt="coupon3">
+
+                    </div>
+                    <div id="coupon_info" class="coupon_info "></div>
+                </div>
+
+                <div id="last" class="last art_box"></div>
+            </article>
+            <article id="art_2" class="art_2">
+                <div id="second_1" class="second_1 second"></div>
+                <div id="second_2" class="second_2 second"></div>
+                <div id="second_3" class="second_3 second">
+                    <div id="category1" class="category1 category"></div>
+                    <div id="category2" class="category2 category"></div>
+                    <div id="category3" class="category3 category"></div>
+                    <div id="category4" class="category4 category"></div>
+                </div>
+            </article>
+            <article id="art_3" class="art_3">
+
+                <!-- 윤다솔입니다 -->
+                <div id="third_1" class="third_1 third">
+                </div>
+                <div id="third_2" class="third_2 third"></div>
+
+
+                <div id="third_3" class="third_3 third"></div>
+            </article>
+
+        </section>
+
+        <div id="login_bg" class="login_bg"></div>
+        <div id="login" class="login">
+            <div id="login_banner" class="login_banner login_box"></div>
+            <form action="info.php" method="POST" class="login_box">
+                <label for=""><input type="email" name="email" id="email" placeholder="이메일" maxlength="30"></label>
+                <label for=""> <input type="text"></label>
+                <input type="submit" name="submit" id="submit" value="로그인">
+            </form>
+            <div id="find_info" class="find_info login_box"></div>
+            <div id="start_sns" class="start_sns login_box"></div>
+            <div id="login_footer" class="login_footer login_box"></div>
         </div>
+<<<<<<< HEAD
         <div id="third_2" class="third_2 third"></div>
         <div id="third_3" class="third_3 third"></div>
       </article>
@@ -83,7 +107,9 @@
       <div id="find_info" class="find_info login_box"></div>
       <div id="start_sns" class="start_sns login_box"></div>
       <div id="login_footer" class="login_footer login_box"></div>
+=======
+>>>>>>> 24038357d475fafff658a2efe69be5c5997f3a32
     </div>
-  </div>
 </body>
+
 </html>
