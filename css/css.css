@@ -55,44 +55,69 @@ section {
         .last {
             max-width: 800px;
             height: 100px;
-            background-color: thistle;
             margin: 0 auto;
         }
 
         .first {
             text-align: center;
             line-height: 50px;
+            text-shadow: 5px 5px 10px #000000;
         }
+            .first>p{
+                color: #fff;
+            }
 
             .first>h1 {
                 font-size: 2em;
+                color: #fff;
             }
+                .first>h1>span {
+                    color: #203F88;
+                }
+
 
         .coupon_container {
-            max-width: 800px;
+            max-width: 700px;
             height: 600px;
             background-color: white;
-            margin: 20px auto;
-            border-radius: 50px;
+            margin: 100px auto;
             padding: 20px;
+            box-shadow: 2px 2px 4px 2px rgb(109, 103, 97);
         }
 
             .coupon_header {
                 width: 400px;
                 height: 100px;
-                background-color: blue;
                 margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
 
             .coupon,
             .coupon_info {
                 width: 400px;
                 height: 200px;
-                background-color: red;
                 margin: 0 auto;
                 margin-top: 10px;
                 cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+
             }
+                .info_box{
+                    width: 100%;
+                    height: 70%;
+                    /* background-color: gold; */
+                    font-size: 0.7em;
+                }
+                    .info_box>h3{
+                        font-size: 1.5em;
+                    }
 
             .art_2{
                 width: 100%;
@@ -356,7 +381,7 @@ section {
 
     .login_effect {
         display: block;
-        background-color: #ffffff;
+        background-color: #fff;
     }
 
 
@@ -365,7 +390,7 @@ section {
     .login_box {
         width: 600px;
         height: 100px;
-        background-color: #ffffff;
+        background-color: #fff;
         margin: 10px;
     }
 
@@ -439,7 +464,7 @@ section {
         height: 100px;
         margin: 10px 0;
         background-color: #4383FF;
-        color: #ffffff;
+        color: #fff;
         cursor: pointer;
     }
     .login>form>label>input {
@@ -486,7 +511,7 @@ section {
             width: 300px;
             height: auto;
             background-color: #333;
-            color: #ffffff;
+            color: #fff;
             text-align: center;
             font-size: 0.7em;
             padding: 20px;

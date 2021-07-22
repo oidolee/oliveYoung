@@ -25,11 +25,16 @@
             <article id="art_1" class="art_1">
                 <div id="first" class="first art_box">
                     <p>더운날씨에 힘드시죠? </p>
-                    <h1>"쿨 폰" 나갑니다!!</h1>
+                    <h1>"<span>Cool</span> 한 쿠(울)폰 드릴게요!"</h1>
                 </div>
                 <div id="coupon_container1" class="coupon_container1 coupon_container">
 
-                    <div id="coupon_header1" class="coupon_header1 coupon_header"></div>
+                    <div id="coupon_header1" class="coupon_header1 coupon_header">
+                      <div id="header_info" class="header_info">
+                        <p>7월 온라인몰에서 구매혜택</p>
+                        <h3>다다익선 혜택 지금 바로 누리세요</h3>
+                      </div>
+                    </div>
                     <div id="coupon1" class="coupon1 coupon">
                         <img src="img/art1/coupon1.png" alt="coupon1">
                     </div>
@@ -39,12 +44,39 @@
                     </div>
                 </div>
                 <div id="coupon_container2" class="coupon_container2 coupon_container">
-                    <div id="coupon_header2" class="coupon_header2 coupon_header"></div>
+                    <div id="coupon_header2" class="coupon_header2 coupon_header">
+                      <p>5만원까지? 10만원까지? 아니죠!</p>
+                      <h4>장바구니 쿠폰</h4>
+                      <h3>쿨하게 무제한 할인</h3>
+
+                    </div>
                     <div id="coupon3" class="coupon3 coupon">
                         <img src="img/art1/coupon3.png" alt="coupon3">
 
                     </div>
-                    <div id="coupon_info" class="coupon_info "></div>
+                    <div id="coupon_info" class="coupon_info ">
+                      <div id="info_box1" class="info_box1 info_box">
+                        <h3>발급대상</h3>
+                        <p>Avocado제품을 한번도 구매한 적이 없는 고객 전원
+                              (행사 중복은 별개 입니다.)
+                        </p>
+                      </div>
+                      <div id="info_box2" class="info_box2 info_box">
+                        <h3>주의사항</h3>
+                        <p>
+                            발급기간 중 ID당 1회 한해 발급가능 
+                            다른 결제할인쿠폰과 중복사용 불가 <br>
+                            쿠폰 사용 후 주문 부분 취소 시 재발급 불가 
+                        </p>
+                      </div>
+              
+                      <div id="info_box3" class="info_box3 info_box">
+                        <h3>사용기간</h3>
+                        <p><span>30</span> 발급일로부터 
+                            일간 사용 가능
+                        </p>
+                      </div>
+                    </div>
                 </div>
 
                 <div id="last" class="last art_box"></div>
@@ -225,17 +257,19 @@
             </article>
         </section>
 
+          <!-- 이민진 입니다. -->
         <div id="login_bg" class="login_bg"></div>
         <div id="login" class="login">
             <div id="login_banner" class="login_banner login_box">
                 <div id="login_close" class="login_close">
                     <span></span>
                 </div>
-                <img src="img/id/Avocado.png" alt=Avocado">
+                <img src="img/id/Avocado.png" alt="Avocado">
             </div>
             <form action="info.php " method="POST " class="login_box ">
-                <label for="email"><input type="email " name="email " id="email " placeholder="이메일 " maxlength="30 "></label>
-                <label for=" "><input type="password" name="password" id="password" placeholder="비밀번호"></label>
+                <label for="email"><input type="email " name="email " id="email " 
+                  placeholder="이메일 " maxlength="30 " required pattern="[a-z]"></label>
+                <label for=" "><input type="password" name="password" id="password" placeholder="비밀번호" required></label>
                 <input type="submit" value="로그인">
             </form>
             <div id="find_info " class="find_info login_box ">
@@ -250,7 +284,8 @@
             </div>
             <div id="login_footer " class="login_footer login_box">
                 <div id="foot_info" class="foot_info">
-                    <p>일반 회원 /  온라인 고객센터070-4211-3951</p>
+                    <p>일반 회원 /  온라인 고객센터 <br>
+                      070-4211-3951</p>
                     <p>A/S 고객센터 1899-6840</p>
                 </div>
             </div>
