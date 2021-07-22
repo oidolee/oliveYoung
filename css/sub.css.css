@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+    @font-face { 
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    section{width: 100%; height: 969px; background-color: #FBE0C4; margin: 0 auto;}
+    .box{width: 1200px; height: 969px; margin: 0 auto;}
+    .event_text{width: 100%; height: 100px; float: left; margin: 100px 0 0 0px;}
+    .event_text h2{text-align: center; color: #0061A8; font-size: 55px; text-align: center;}
+    .event_box{width: 1000px; height: 450px; margin: 50px 0 0 95px; float: left; background-color: white;}
+    .text{width: 100%; height: 150px;}
+    .text p{text-align: center; font-size: 30px; float: left; margin: 60px 0 0 180px;}
+    .text span{color: #0061A8; font-weight: bold;}
+    .text h5{color: black; font-size: 14px; float: right; margin: 140px 50px 0 0px;}
+
+    .imgbox{width: 900px; height: 260px; background-color: #eee; margin: 20px 50px ;}
+    .imgbox img{width: 180px; height: 230px; margin: 15px 0px 0 20px;}
+    .img_text{width: 450px; height: 260px; float: right; margin: 0px 27px 0 0px;}
+    .img_text h5{font-size: 24px; text-align: center; margin: 30px 0 0 0px;}
+    .up p{width: 55px; font-size: 14px; border: 1px solid #0061A8; border-radius: 30px; padding: 5px 10px; margin: 30px 0 0 50px;}
+    .up span{float: right; font-size: 14px; margin: -27px 260px 0 0px;}
+    .down p{width: 80px; font-size: 14px; border: 1px solid #0061A8; border-radius: 30px; padding: 5px 10px; margin: 12px 0 0 50px;}
+    .down span{font-size: 14px; float: right; margin: -25px 15px 0 0px;}
+
+    .textbox{width: 900px; float: left; margin: 100px 0 0 120px;}
+    .textbox ul li{color: black;}
