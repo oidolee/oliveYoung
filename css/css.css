@@ -55,53 +55,78 @@ section {
         .last {
             max-width: 800px;
             height: 100px;
-            background-color: thistle;
             margin: 0 auto;
         }
 
         .first {
             text-align: center;
             line-height: 50px;
+            text-shadow: 5px 5px 10px #000000;
         }
+            .first>p{
+                color: #fff;
+            }
 
             .first>h1 {
                 font-size: 2em;
+                color: #fff;
             }
+                .first>h1>span {
+                    color: #203F88;
+                }
+
 
         .coupon_container {
-            max-width: 800px;
+            max-width: 700px;
             height: 600px;
             background-color: white;
-            margin: 20px auto;
-            border-radius: 50px;
+            margin: 100px auto;
             padding: 20px;
+            box-shadow: 2px 2px 4px 2px rgb(109, 103, 97);
         }
 
             .coupon_header {
                 width: 400px;
                 height: 100px;
-                background-color: blue;
                 margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
 
             .coupon,
             .coupon_info {
                 width: 400px;
                 height: 200px;
-                background-color: red;
                 margin: 0 auto;
                 margin-top: 10px;
                 cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+
             }
+                .info_box{
+                    width: 100%;
+                    height: 70%;
+                    /* background-color: gold; */
+                    font-size: 0.7em;
+                }
+                    .info_box>h3{
+                        font-size: 1.5em;
+                    }
 
             .art_2{
                 width: 100%;
-                height: auto;
+                height: 950px;
                 background-color:rgb(79, 150, 209);
                 margin: 0 auto;
-                padding:50px;
+                padding:50px 0;
               }
-                  .second_1{
+                  .sec_box1{
                     max-width: 500px;
                     height: 100px;
                     margin: 0 auto;
@@ -109,19 +134,19 @@ section {
                     padding:30px 0 0;
                   }
             
-                  .second_1 h1 {
+                  .sec_box1 h1 {
                     font-size:36px;
                     color:aliceblue;
                     letter-spacing: 1px;
                     margin:10px 0;
                   }
             
-                  .second_1 .text1 {
+                  .sec_box1 .text1 {
                     font-size:18px;
                     line-height:35px;
                   }
             
-                  .second_2{
+                  .sec_box2{
                     max-width: 800px;
                     height: 200px;
                     margin: 60px auto;
@@ -130,45 +155,59 @@ section {
                     align-items:center;
                   }
             
-                  .second_2 .sub {
+                  .sec_box2 .sub {
                     width:140px;
                     height: 180px;
-                  }
-            
-                  .sub {
                     text-align: center;
+                    border:1px solid #333;
+                    padding:10px;
+                    border-radius:5%;
+                  }
+
+                  .sec_box2 .sub:hover {
+                    opacity:0.7;
                   }
             
-                  .second_3{
+                  #second_3 {
+                    position:relative;
+                    height:450px;
+                    width:1000px;
+                    margin:0 auto;
+
+                  }
+
+                  .sec_box3{
                     max-width: 1200px;
                     height: 450px; 
-                    background-color:white;
+                    background-color:#fff;
                     margin: 0 auto;
                     display:flex;
                     justify-content: space-evenly;
                     align-items: center;
+                    box-shadow:1px 1px 1px 1px #666;
+                    position:absolute;
+                    top:0;
+                    left:0;
                   }
+                 
             
-                  .second_3 .product {
+                  .sec_box3 .product {
                     width: 250px;
-                    height:300px;
                     padding:20px 40px;
                     box-sizing: border-box;
-                    background-color:rgb(124, 189, 51);
                     text-align: center;
                     display:flex;
                     flex-direction:column;
                     justify-content: space-between;
                   }
-            
+                 
+
                   .product img {
                     width:174px;
-                    
+                    box-shadow: 2px 2px 2px 2px #666;
+                    margin-bottom:10px;
                   }
-            
-                  /* #second_3:not(:nth-child(1)) {
-                    display:none;
-                  } */
+ 
 
 .art_3 {
     width: 100%;
@@ -346,7 +385,7 @@ section {
 
     .login_effect {
         display: block;
-        background-color: #ffffff;
+        background-color: #fff;
     }
 
 
@@ -355,7 +394,7 @@ section {
     .login_box {
         width: 600px;
         height: 100px;
-        background-color: #ffffff;
+        background-color: #fff;
         margin: 10px;
     }
 
@@ -429,7 +468,7 @@ section {
         height: 100px;
         margin: 10px 0;
         background-color: #4383FF;
-        color: #ffffff;
+        color: #fff;
         cursor: pointer;
     }
     .login>form>label>input {
@@ -476,7 +515,7 @@ section {
             width: 300px;
             height: auto;
             background-color: #333;
-            color: #ffffff;
+            color: #fff;
             text-align: center;
             font-size: 0.7em;
             padding: 20px;
