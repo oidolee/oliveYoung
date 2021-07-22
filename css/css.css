@@ -55,7 +55,6 @@ section {
         .last {
             max-width: 800px;
             height: 100px;
-            background-color: thistle;
             margin: 0 auto;
         }
 
@@ -69,30 +68,41 @@ section {
             }
 
         .coupon_container {
-            max-width: 800px;
+            max-width: 700px;
             height: 600px;
             background-color: white;
-            margin: 20px auto;
-            border-radius: 50px;
+            margin: 100px auto;
             padding: 20px;
+            box-shadow: 2px 2px 4px 2px rgb(109, 103, 97);
         }
 
             .coupon_header {
                 width: 400px;
                 height: 100px;
-                background-color: blue;
                 margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
 
             .coupon,
             .coupon_info {
                 width: 400px;
                 height: 200px;
-                background-color: red;
                 margin: 0 auto;
                 margin-top: 10px;
                 cursor: pointer;
+                display: flex;
+                justify-content: space-around;
             }
+                .info_box{
+                    width: 100%;
+                    height: 30%;
+                    background-color: gold;
+                    font-size: 0.7em;
+                }
 
             .art_2{
                 width: 100%;
