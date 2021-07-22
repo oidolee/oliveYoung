@@ -1,13 +1,4 @@
 {
-	"folders": [
-		{
-			"path": "..\\올리브영"
-		},
-		{
-			"path": "..\\oliveYoung - 복사본"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "oliveYoung - 복사본"
-	}
+	"folders": [],
+	"settings": {}
 }
