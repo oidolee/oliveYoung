@@ -193,12 +193,18 @@ section {
                   .product img {
                     width:174px;
                     box-shadow: 2px 2px 2px 2px #666;
+                    margin-bottom:10px;
                   }
 
                   #product_a img {
                     width:174px;
                     height:290px;
                     object-fit: cover;
+                  }
+
+                  #product_b {
+                    width:174px;
+                    height:290px;
                   }
             
                   /* #second_3:not(:nth-child(1)) {
