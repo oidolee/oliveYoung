@@ -306,16 +306,17 @@ section {
 
 .art_3 {
     width: 100%;
-    height: 800px;
+    height: 950px;
     background-color: rgb(22, 83, 133);
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    align-items: center;
 }
 
 .third {
-    width: 250px;
-    height: 500px;
+    width: 385px;
+    height: 600px;
     margin-top: 20px;
     background-color: #fff;
     margin: 10px;
@@ -326,13 +327,14 @@ section {
 }
 
 .third1_box1 {
-    width: 250px;
-    height: 230px;
+    width: 385px;
+    height: 400px;
 }
 
 .third1_box1 img {
     width: 100%;
     height: 100%;
+    background-image: url("img/art3/1.png");
 }
 
 .third1_text1 {
@@ -342,7 +344,7 @@ section {
 }
 
 .third1_text1 h3 {
-    margin: 30px;
+    margin: 15px;
 }
 
 .third1_btn1 {
@@ -351,7 +353,7 @@ section {
     align-items: center;
     position: absolute;
     bottom: 5%;
-    left: 20%;
+    left: 30%;
 }
 
 .third1_btn1 button {
@@ -361,6 +363,7 @@ section {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .third1_btn1 a {
@@ -369,8 +372,8 @@ section {
 }
 
 .third2_box2 {
-    width: 250px;
-    height: 230px;
+    width: 385px;
+    height: 400px;
 }
 
 .third2_box2 img {
@@ -385,7 +388,7 @@ section {
 }
 
 .third2_text2 h3 {
-    margin: 30px;
+    margin: 15px;
 }
 
 .third2_btn2 {
@@ -394,7 +397,7 @@ section {
     align-items: center;
     position: absolute;
     bottom: 5%;
-    left: 20%;
+    left: 30%;
 }
 
 .third2_btn2 button {
@@ -404,6 +407,7 @@ section {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .third2_btn2 a {
@@ -412,8 +416,8 @@ section {
 }
 
 .third3_box3 {
-    width: 250px;
-    height: 230px;
+    width: 385px;
+    height: 400px;
 }
 
 .third3_box3 img {
@@ -428,7 +432,7 @@ section {
 }
 
 .third3_text3 h3 {
-    margin: 30px;
+    margin: 15px;
 }
 
 .third3_btn3 {
@@ -437,7 +441,7 @@ section {
     align-items: center;
     position: absolute;
     bottom: 5%;
-    left: 20%;
+    left: 30%;
 }
 
 .third3_btn3 button {
@@ -447,6 +451,7 @@ section {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .third3_btn3 a {
