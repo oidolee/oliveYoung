@@ -27,8 +27,35 @@ $(function(){
     });
 
 
+    /* start*/
+    let email = $('#login_box input').eq(0);
+    email.on('keyup',function(){
+        // let check = /^(\w+)@(\w+)(\.)[(\w+){2,3]}$/;// 이메일 정규식 표현
+        let check = /^([a-z]{6,16})@({2,4})$/;// 이메일 정규식 표현
+        let e_val = email.val();
+        let outValue = check.test(e_val);
+        console.log(outValue);
+
+        let submit = $('#login_box>#submit');
+        
 
     
+        submit.click(function(){
+            if(!outValue==true){
+                alert("이메일 형식을 확인 하시오");
+            }
+
+        });
+    })
+
+
+
+
+    /* --------------end*/
+    
+
+
+
 
     /* start*/
     /* --------------end*/

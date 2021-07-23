@@ -555,6 +555,7 @@ section {
         background-color: #4383FF;
         color: #fff;
         cursor: pointer;
+        z-index: 10;
     }
     .login>form>label>input {
         width: 300px;
