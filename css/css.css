@@ -586,10 +586,19 @@ section {
     align-items: center;
     height: 50px;
 }
-
-.find_info>div:nth-of-type(2) {
-    margin: 0 10px;
-}
+    .find_info>.signUp{
+        width: 75%;
+        height: 100%;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .find_info>.signUp:hover{
+        background-color: #00d2ff;
+        color: #fff;
+    }
 
 .start_sns {
     height: 50px;

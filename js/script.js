@@ -51,6 +51,15 @@ $(function(){
     /* 회원가입 화면 닫기 --------------end*/
     });
 
+    const signUp = document.querySelector('#signUp');
+    signUp.addEventListener('click',()=>{
+        join_bg.style.top = scrollY + "px";
+        join_bg.classList.add('join_effect');
+        join_av.style.top = scrollY + "px";
+        join_av.classList.add('join_effect');;
+    });
+
+
     
 
     /* start*/
