@@ -329,6 +329,7 @@ section {
 .third1_box1 {
     width: 385px;
     height: 400px;
+    background-image: url("../img/art3/1.png");
 }
 
 .third1_text1 {
@@ -368,7 +369,7 @@ section {
 .third2_box2 {
     width: 385px;
     height: 400px;
-    background-image: url('/img/art3/2.png');
+    background-image: url('../img/art3/2.png');
 }
 
 .third2_text2 {
@@ -408,7 +409,7 @@ section {
 .third3_box3 {
     width: 385px;
     height: 400px;
-    background-image: url("/img/art3/3.png");
+    background-image: url("../img/art3/3.png");
 }
 
 .third3_text3 {
