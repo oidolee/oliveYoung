@@ -1,5 +1,5 @@
 $(function(){
-
+    console.log(scrollY)
     /*로그인 화면 팝업 효과 start*/
     const coupons = document.querySelectorAll('#art_1 .coupon');
     const loginBg = document.querySelector('#login_bg');
@@ -22,11 +22,34 @@ $(function(){
     loginClose.addEventListener('click',()=>{
         loginBg.classList.remove('login_Bgpop');
         login.classList.remove('login_effect');
-    /* 로그인 화면 닫기 --------------end*/
-
     });
 
+    /* 로그인 화면 닫기 --------------end*/
 
+
+
+
+    
+    const thurd3_button = document.querySelector('#thurd3_button button');
+    const join_av = document.querySelector('#join_av');
+    const join_bg = document.querySelector('#join_av_bg');
+
+    thurd3_button.addEventListener('click',()=>{
+        join_bg.style.top = scrollY + "px";
+        join_bg.classList.add('join_effect');
+        join_av.style.top = scrollY + "px";
+        join_av.classList.add('join_effect');
+    }); 
+
+
+    const joinClose = document.querySelector('#join_close');
+
+    joinClose.addEventListener('click',()=>{
+        join_bg.classList.remove('join_effect');
+        join_av.classList.remove('join_effect');
+
+    /* 회원가입 화면 닫기 --------------end*/
+    });
 
     
 
