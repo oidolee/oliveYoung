@@ -59,8 +59,11 @@ $(function(){
         join_av.classList.add('join_effect');;
     });
 
-
-    
+    let email = $('#login_box input').eq(0);
+    email.keyup(()=>{
+        let e_value = email.val();
+        console.log(e_value);
+    });
 
     /* start*/
     /* --------------end*/
