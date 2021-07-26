@@ -63,10 +63,21 @@ $(function(){
     email.keyup(()=>{
         const pattern = /^([a-z0-9]{2,16})@([a-z]{2,16})\.([a-z]{2,8})$/
         let e_value = email.val();
-
         let check =  pattern.test(e_value);
         console.log(check);
+
+        let submit = $('#login_box #submit');
+
+        submit.click(()=>{
+            if(check===false){
+                alert('아이디와 비밀번호를 확인해 주세요');
+            }
+    
+        });
+    
     });
+
+  
 
     /* start*/
     /* --------------end*/
