@@ -60,6 +60,10 @@ $(function(){
     });
 
 
+    // let form = $('#login>form');
+    // form.click(()=>{
+    //     alert(1);
+    // });
 
     /* login 정규 표현식 start*/
 
@@ -70,7 +74,7 @@ $(function(){
          //id 부분 start
         let email = $('#login_box input').eq(0);
 
-        const pattern = /^([a-z0-9]{2,16})@([a-z]{2,16})\.([a-z]{2,8})$/
+        const pattern = /^([a-z0-9]{5,16})@([a-z]{2,16})\.([a-z]{2,8})$/
         let e_value = email.val();
         let check =  pattern.test(e_value);
         console.log(check);
@@ -85,8 +89,14 @@ $(function(){
         console.log(passcheck);
          //passoword 부분 end
 
-        if(check==false){
-            alert('아이디와 비밀번호를 확인해 주세요');
+    
+
+        if(check==false||passcheck==false){
+            
+            alert('아이디와 비밀번호를 확인해 주세요 \n\n아이디 : 문자,숫자포함 5~16자 \n비밀번호:문자,숫자포함 2~10자');
+            
+            history.back(-1);
+
         }
 
         if(check==true&&passcheck==true){
@@ -102,7 +112,7 @@ $(function(){
 
 
 
-    
+
 
     /* start*/
     /* --------------end*/
