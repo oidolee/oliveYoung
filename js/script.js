@@ -61,8 +61,11 @@ $(function(){
 
     let email = $('#login_box input').eq(0);
     email.keyup(()=>{
+        const pattern = /^([a-z0-9]{2,16})@([a-z]{2,16})\.([a-z]{2,8})$/
         let e_value = email.val();
-        console.log(e_value);
+
+        let check =  pattern.test(e_value);
+        console.log(check);
     });
 
     /* start*/
