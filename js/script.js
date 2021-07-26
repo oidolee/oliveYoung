@@ -59,25 +59,50 @@ $(function(){
         join_av.classList.add('join_effect');;
     });
 
-    let email = $('#login_box input').eq(0);
-    email.keyup(()=>{
+
+
+    /* login 정규 표현식 start*/
+
+
+    let submit = $('#login_box>input');
+
+    submit.click(()=>{
+         //id 부분 start
+        let email = $('#login_box input').eq(0);
+
         const pattern = /^([a-z0-9]{2,16})@([a-z]{2,16})\.([a-z]{2,8})$/
         let e_value = email.val();
         let check =  pattern.test(e_value);
         console.log(check);
+        //id 부분 end
 
-        let submit = $('#login_box #submit');
 
-        submit.click(()=>{
-            if(check===false){
-                alert('아이디와 비밀번호를 확인해 주세요');
-            }
-    
-        });
-    
+         //passoword 부분 start
+        let password = $('#login_box #password');
+        const passPattern = /^[a-z0-9]{2,10}$/
+        let password_value = password.val();
+        let passcheck =  passPattern.test(password_value);
+        console.log(passcheck);
+         //passoword 부분 end
+
+        if(check==false){
+            alert('아이디와 비밀번호를 확인해 주세요');
+        }
+
+        if(check==true&&passcheck==true){
+            alert('환영합니다.');
+
+        }
     });
 
-  
+    /*login 정규 표현식  --------------end*/
+
+
+
+
+
+
+    
 
     /* start*/
     /* --------------end*/
