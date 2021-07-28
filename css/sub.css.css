@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+    .banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
     /* css : sub1 */
     
     @font-face { 
